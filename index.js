@@ -1,6 +1,6 @@
 function kursor(removeDefaultCursor) {
   this.removeDefaultCursor = removeDefaultCursor;
-  if (this.removeDefault == true) {
+  if (this.removeDefaultCursor == true) {
     document.body.classList.add("hideCursor");
   }
 }
